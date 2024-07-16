@@ -17,7 +17,7 @@ class _FirestoreExampleState extends State<FirestoreExample> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Firestore Example'),
+        title: const Text('Firestorm Example'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -25,7 +25,7 @@ class _FirestoreExampleState extends State<FirestoreExample> {
           children: [
             TextField(
               controller: _titleController,
-              decoration: InputDecoration(
+              decoration: const InputDecoration(
                 labelText: 'Enter title',
               ),
             ),
